@@ -89,7 +89,7 @@ export const resumeConfig: ResumeConfig = {
         ] },
         env: { fr: 'Your environment string here' }
       }
-      },
+      }
     },
     {
       id: 'ref-pro',
