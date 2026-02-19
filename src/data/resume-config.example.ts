@@ -82,10 +82,12 @@ export const resumeConfig: ResumeConfig = {
       period: { fr: '2025' },
       description: { fr: 'Saisie et traitement de données avec rigueur et précision.' },
       details: {
+        context: { fr: 'Traitement de flux documentaires.' },
         tasks: { fr: [
           'Traitement de données volumineuses',
           'Respect de délais stricts et des procédures internes',
         ] },
+        env: { fr: 'Logiciels de saisie internes' },
       },
     },
     {
@@ -97,12 +99,14 @@ export const resumeConfig: ResumeConfig = {
       description: { fr: 'Gestion complète de l\'écosystème web et visibilité client.' },
       techs: ['WordPress', 'SEO', 'OVH'],
       details: {
+        context: { fr: 'Agence spécialisée en visibilité numérique.' },
         tasks: { fr: [
           'Support client et maintenance technique',
           'Maquettage et création de logos',
           'Gestion des réseaux sociaux',
           'Gestion des noms de domaines (OVH)',
         ] },
+        env: { fr: 'WordPress / Suite Adobe / OVH' },
       },
     },
     {
@@ -114,12 +118,14 @@ export const resumeConfig: ResumeConfig = {
       description: { fr: 'Maintenance de boutiques e-commerce et support réseau.' },
       techs: ['PrestaShop', 'SEO'],
       details: {
+        context: { fr: 'Gestion technique d\'un parc multi-boutiques.' },
         tasks: { fr: [
           'Gestion du CMS PrestaShop multi-boutiques',
           'Développement et correction de bugs e-commerce',
           'Gestion du référencement naturel (SEO)',
           'Support client technique',
         ] },
+        env: { fr: 'PrestaShop / Infrastructure réseau locale' },
       },
     },
     {
@@ -131,41 +137,34 @@ export const resumeConfig: ResumeConfig = {
       description: { fr: 'Développement de solutions web basées sur WordPress.' },
       techs: ['WordPress', 'Plesk'],
       details: {
+        context: { fr: 'Développement de projets web clients.' },
         tasks: { fr: [
           'Développement de sites WordPress sur mesure',
           'Gestion de serveurs via Plesk',
         ] },
+        env: { fr: 'WordPress / PHP / Plesk' },
       },
     },
   ],
   education: [
     {
-      school: { fr: 'MyDigital School' },
+      school: { fr: 'MyDigital School (Caen)' },
       degree: { fr: 'Bachelor Développeur web' },
       period: '2020 - 2021',
-      location: 'Caen',
     },
     {
-      school: { fr: 'Julliot de la Morandière' },
+      school: { fr: 'Julliot de la Morandière (Granville)' },
       degree: { fr: 'BTS Systèmes numériques' },
       period: '2018 - 2020',
-      location: 'Granville',
-      description: { fr: 'C++, Environnement Linux, VmWare, VirtualBox' },
+      specialty: { fr: 'C++, Linux, VmWare, VirtualBox' },
     },
   ],
   projects: [
     {
       id: 'lab-it',
       title: { fr: 'Lab Windows Server / Réseau' },
-      description: { fr: 'Simulation de réseau d\'entreprise avec serveurs et automatisation.' },
+      description: { fr: 'Simulation de réseau d\'entreprise : Active Directory, GPO, DHCP, DNS et pare-feu pfSense avec automatisation PowerShell.' },
       techs: ['Windows Server', 'Active Directory', 'pfSense', 'PowerShell'],
-      details: {
-        tasks: { fr: [
-          'Installation et configuration d\'Active Directory (utilisateurs, groupes et GPO)',
-          'Configuration DHCP, DNS et pare-feu virtuel (pfSense)',
-          'Scripts PowerShell pour l\'automatisation des comptes et permissions',
-        ] },
-      },
     },
   ],
   hobbies: [
