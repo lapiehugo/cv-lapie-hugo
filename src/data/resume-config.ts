@@ -82,10 +82,13 @@ export const resumeConfig: ResumeConfig = {
       period: { fr: '2025' },
       description: { fr: 'Saisie et traitement de données avec rigueur et précision.' },
       details: {
+        context: { fr: 'Your context here' },
         tasks: { fr: [
           'Traitement de données volumineuses',
-          'Respect de délais stricts et des procédures internes',
+          'Respect de délais stricts et des procédures internes',        
         ] },
+        env: { fr: 'Your environment string here' }
+      }
       },
     },
     {
